@@ -20,19 +20,19 @@ namespace Soap_Service_Students
 		CompositeType GetDataUsingDataContract(CompositeType composite);
 
 		[OperationContract]
-		Student AddStudent(string name);
+		Student AddStudent(Student student);
 
 		[OperationContract]
 		Student FindStudent(string name);
 
 		[OperationContract]
-		Student RemoveStudent(string name);
+		Student RemoveStudent(Student student);
 
 		[OperationContract]
-		Student EditStudent(string name);
+		Student EditStudent(Student student);
 
 		[OperationContract]
-		Student GetAllStudents(Student student);
+		List<Student> GetAllStudents(Student student);
 
 
 		// TODO: Add your service operations here
