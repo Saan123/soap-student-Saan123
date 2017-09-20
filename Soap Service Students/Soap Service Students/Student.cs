@@ -14,5 +14,9 @@ namespace Soap_Service_Students
 
 		[DataMember]
 		public int ID { get; set; }
+
+		public static List<Student> StudentListe { get; set; }
+
+	
 	}
 }
