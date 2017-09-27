@@ -17,6 +17,14 @@ namespace Soap_Service_Students
 
 		public static List<Student> StudentListe { get; set; }
 
-	
+		public Student(string name)
+		{
+			name = name;
+		}
+
+		public Student()
+		{
+
+		}
 	}
 }

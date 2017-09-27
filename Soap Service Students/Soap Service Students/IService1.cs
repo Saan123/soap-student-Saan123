@@ -26,10 +26,10 @@ namespace Soap_Service_Students
 		Student FindStudent(string name);
 
 		[OperationContract]
-		Student RemoveStudent(Student student);
+		void RemoveStudent(Student student);
 
 		[OperationContract]
-		Student EditStudent(Student student);
+		void EditStudent(Student student);
 
 		[OperationContract]
 		List<Student> GetAllStudents(Student student);

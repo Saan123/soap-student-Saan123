@@ -17,12 +17,7 @@ namespace Soap_Service_Students
 			throw new NotImplementedException();
 		}
 
-		public Student RemoveStudent(Student student)
-		{
-			throw new NotImplementedException();
-		}
-
-		public Student EditStudent(Student student)
+		public void EditStudent(Student student)
 		{
 			throw new NotImplementedException();
 		}
@@ -55,5 +50,9 @@ namespace Soap_Service_Students
 			return composite;
 		}
 
+		public void RemoveStudent(Student student)
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
